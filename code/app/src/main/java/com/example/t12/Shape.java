@@ -3,6 +3,7 @@ package com.example.t12;
 public abstract class Shape {
     private int x;
     private int y;
+    String color = "green";
 
     public Shape(int x, int y)
     {
